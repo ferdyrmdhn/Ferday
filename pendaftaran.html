@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pendaftaran</title>
+	<link rel="stylesheet" type="text/css" href="stylecss.html">
+	<style type="text/css">
+		body{
+			background-color: orange;
+		}
+			#container{
+				width: 650px;
+				margin-left: auto;
+				margin-right: auto;
+		
+		}
+		#header{
+			width: 650px;
+			height: 500px;
+			background-color: #fff;
+			background-image: url("gemar.png");
+			background-size: 100% 100%;
+		}
+		#navigasi{
+		height: 70px;
+		text-align: center;
+		background-color: #fff;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+		}
+		#navigasi a{
+			padding: 10px;
+		}
+		#content{
+			width: 650px;
+			height: auto;
+			color: #fff;
+			padding: 5px 15px 5px 15px;
+		}
+		#content p{
+			font-family: verdana;
+			font-size: 16px;
+			text-align: justify;
+			color: #333;
+		}
+		#content h1{
+			text-align: center;
+			color: #7fff00;
+		}
+		#imgtengah{
+			float: left;
+			margin-left: 20px;
+			width: 50%;
+			height: auto;
+
+		}
+		#footer{
+			width: 650px;
+			height: 70px;
+			background-color: #000000;
+			padding-top: 30px;
+		}
+		#footer p{
+			color: #fff;
+			text-align: center;
+
+		}
+		
+		.body{
+			font-family: arial;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.wrapper{
+			width: 500px;
+			margin: auto;
+			border: 1px solid white;
+			padding: 10px 15px;
+			border-radius: 10px;
+		}
+		input[type=text],input[type=date],textarea,select{
+			width: 100%;
+			background-color: #BCC6CC;
+			padding: 10px 15px;
+			color: black;
+			border-radius: 5px;
+			border: none;
+			box-sizing: border-box;
+		}
+		input [type=radio], input[type=chechkbox]{
+			height: 18px;
+			width: 18px;
+			vertical-align: middle;
+			margin: 10px 5px 15px 10px;
+		}
+		input[type=submit]{
+			background-color:#616D7E ;
+			color: black;
+			padding: 10px 15px;
+			border-radius: 5px;
+			border: none;
+		}
+		h1{
+			text-align: justify;
+			font-family: arial;
+		}
+		 
+	</style>
+	
+</head>
+<body vlink="black" link="black">
+
+	<div id="container">
+		<div id="header"></div>
+
+		<div id="navigasi">
+    <a href="index.html">HOME</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="pendaftaran.html">PENDAFTARAN</a>
+    <a href="tentangkami.html">TENTANG KAMI</a>
+    <div id="date-time"></div>
+
+   <div id="date-time"></div>
+<script>
+   alert("Silahkan Daftar ")
+var waktu = new Date ();
+var jam = waktu.getHours();
+var hari = waktu.getDay();
+var tanggal = waktu.getDate();
+var tahun = waktu.getFullYear();
+var bulan = waktu.getMonth();
+var hr = waktu.getDay();
+//variabel tambahan
+var hari= ["minggu","senin", "selasa", "rabu"];
+
+if(jam<=11) {
+  document.write("Selamat Pagi  "+"<br>");
+}
+else if (jam<=14) {
+  document.write("selamat siang "+"<br>");
+}
+else if (jam<=18) {
+  document.write("Selamat sore  "+"<br>");
+}
+else if (jam<=24) {
+  document.write("selamat malam  "+"<br>");
+}
+
+document.write(hari[hr]+","+tanggal+"/"+(bulan+1)+"/"+tahun+"<br>");
+</script>
+    
+		<div id="content">
+        <h1> Come join us</h1>
+		<img src="Ramadhan.jpg" id="imgtengah">
+			<form><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
+
+				Nama			: <input type="text" name="nama" placeholder="Masukan Nama Anda">
+				Alamat			: <textarea name="Alamat" placeholder="Masukan Alamat Anda"></textarea>
+				Alasan Masuk organisasi:	<textarea name="Alasan"></textarea>
+				 Jenis Kelamin  : <input type="radio" name="gender">Laki-Laki
+                                <input type="radio" name="gender">Perempuan
+
+				<input type="submit" name="submit" value="kirim" >       
+			</form>
+			
+		</div>
+</body>
+<div id="footer">
+		<p>&copy; copyright 2023 - [Ferdy Ramadhan-231011701380]</p>
+	</div>	
+
+
+</body>

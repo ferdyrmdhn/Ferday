@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body vlink="black" link="black">
+<div id="container">
+	  
+	<div id="header"></div>
+
+	<div id="navigasi">
+    <a href="index.html">HOME</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="pendaftaran.html">PENDAFTARAN</a>
+    <a href="tentangkami.html">TENTANG KAMI</a>
+    <div id="date-time"></div>
+
+    <div id="date-time"></div>
+<script>
+   alert("Silahkan Melihat")
+var waktu = new Date ();
+var jam = waktu.getHours();
+var hari = waktu.getDay();
+var tanggal = waktu.getDate();
+var tahun = waktu.getFullYear();
+var bulan = waktu.getMonth();
+var hr = waktu.getDay();
+//variabel tambahan
+var hari= ["minggu","senin", "selasa", "rabu"];
+
+if(jam<=11) {
+  document.write("Selamat Pagi  "+"<br>");
+}
+else if (jam<=14) {
+  document.write("selamat siang "+"<br>");
+}
+else if (jam<=18) {
+  document.write("Selamat sore  "+"<br>");
+}
+else if (jam<=24) {
+  document.write("selamat malam  "+"<br>");
+}
+
+document.write(hari[hr]+","+tanggal+"/"+(bulan+1)+"/"+tahun+"<br>");
+</script>
+</body>
+  </div>
+	<div id="content">
+		<h2>pengertian</h2>
+		<img src="Ramadhan.jpg" width="300" height="200">
+		<p>organisasi adalah Kumpulan orang yang ingin mencapai tujuan yang sama pasti akan membuat kelompok atau yang biasa disebut dengan organisasi. Organisasi bisa ditemui di mana saja. Ketika duduk di bangku sekolah, organisasi bukanlah hal yang asing bagi kita.
+        Contohnya ada organisasi OSIS (Organisasi Siswa Intra Sekolah) atau organisasi di tingkat universitas seperti BEM (Badan Eksekutif Mahasiswa)seperti organisasi remaja masjid .Jika suatu kelompok memiliki tujuan yang sama dan memenuhi unsur-unsur organisasi, maka sudah bisa disebut organisasi. Untuk memahami lebih lanjut tentang pengertian organisasi, konsep, tujuan dan manfaat organisasi,</p>
+        <p>Organisasi terjadi ketika orang-orang bekerja sama untuk mencapai tujuan tertentu. Hal itu bisa terjadi melalui serangkaian kegiatan yang dirancang dengan sengaja, membuat improvisasi atau kombinasi keduanya.</p>
+        <p>Berikut adalah pengertian organisasi menurut para ahli:</p>
+        <p>1. C.H. Northcott</p>
+        <p>Organisasi adalah sebuah pengaturan di mana tugas-tugas diberikan kepada para anggota sehingga mereka berkontribusi secara efektif untuk beberapa tujuan yang lebih jelas.Tujuan dari organisasi adalah untuk mengkoordinasikan aktivitas dari berbagai individu atau anggota kelompok yang bekerja di dalam organisasi untuk pencapaian tujuan perusahaan.</p>
+        <p>2. Louis Allen</p>
+        <p>Organisasi adalah sebuah proses identifikasi dan mengelompokkan pekerjaan yang akan dilakukan dan mengerjakan tanggung jawab dan wewenang serta membangun hubungan untuk sebuah tujuan yang membuat anggota organisasi saling bekerja sama secara efektif dalam mencapai tujuan. Organisasi adalah sebuah instrumen untuk mencapai sebuah tujuan tertentu.</p>
+        <p>3. Koontz and O’Donnell</p>
+        <p>Organisasi adalah pembentukan hubungan otoritas dengan ketentuan untuk koordinasi di antara mereka, baik secara vertikal maupun horizontal dalam struktur perusahaan. Organisasi merupakan titik koordinasi di antara para pebisnis.</p> 
+	</div>
+	<div id="footer">
+		<p>&copy; copyright 2023 - [Ferdy Ramadhan-231011701380]</p>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tentang Kami</title>
+	<link rel="stylesheet" type="text/css" href="stylecss.html">
+	<style type="text/css">
+		body{
+			background-color: orange;
+		}
+			#container{
+				width: 650px;
+				margin-left: auto;
+				margin-right: auto;
+		
+		}
+		#header{
+			width: 650px;
+			height: 500px;
+			background-color: #fff;
+			background-image: url("gemar.png");
+			background-size: 100% 100%;
+		}
+		#navigasi{
+		height: 70px;
+		text-align: left;
+		background-color: #fff;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 20px;
+		padding: 10px 10px 10px;
+		}
+		#navigasi a{
+			padding: 10px 10px 10px;
+		}
+		#content{
+			width: 650px;
+			height: auto;
+			background-color: white;
+			padding: 5px 15px 5px 15px;
+		}
+		#content p{
+			font-family: verdana;
+			font-size: 16px;
+			text-align: justify;
+			color: white;
+			background-color: white;
+		}
+		#content h1{
+			text-align: left;
+			color: black;
+		}
+		#imgkanan{
+			float: right;
+			margin-left: 20px;
+			width: 35%;
+			height: auto;
+			padding: 10px;
+		}
+		#footer{
+			width: 650px;
+			height: 50px;
+			background-color: black;
+			padding-top: 30px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		#footer p{
+			color: #ffffff;
+			text-align: center;
+
+		}
+		
+		.body{
+			font-family: arial;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.wrapper{
+			width: 500px;
+			margin: auto;
+			border: 1px solid #ddd;
+			padding: 10px 15px;
+			border-radius: 10px;
+		}
+		input[type=text],input[type=date],textarea,select{
+			width: 100%;
+			background-color: #BCC6CC;
+			padding: 10px 15px;
+			color: black;
+			border-radius: 5px;
+			border: none;
+			box-sizing: border-box;
+		}
+		input [type=radio], input[type=chechkbox]{
+			height: 18px;
+			width: 18px;
+			vertical-align: middle;
+			margin: 10px 5px 15px 10px;
+		}
+		input[type=submit]{
+			background-color:white ;
+			color: black;
+			padding: 10px 15px;
+			border-radius: 5px;
+			border: none;
+		}
+		h1{
+			text-align: justify;
+			font-family: arial;
+		}
+
+
+	</style>
+	
+</head>
+<body vlink="black" link="black">
+	<div id="container">
+		<div id="header"></div>
+			<div id="navigasi">
+		 <a href="index.html">HOME</a>
+    <a href="gallery.html">GALLERY</a>
+    <a href="pendaftaran.html">PENDAFTARAN</a>
+    <a href="tentangkami.html">TENTANG KAMI</a>
+     <div id="date-time"></div>
+<script>
+   alert("Silahkan Melihat")
+var waktu = new Date ();
+var jam = waktu.getHours();
+var hari = waktu.getDay();
+var tanggal = waktu.getDate();
+var tahun = waktu.getFullYear();
+var bulan = waktu.getMonth();
+var hr = waktu.getDay();
+//variabel tambahan
+var hari= ["minggu","senin", "selasa", "rabu"];
+
+if(jam<=11) {
+  document.write("Selamat Pagi  "+"<br>");
+}
+else if (jam<=14) {
+  document.write("selamat siang "+"<br>");
+}
+else if (jam<=18) {
+  document.write("Selamat sore  "+"<br>");
+}
+else if (jam<=24) {
+  document.write("selamat malam  "+"<br>");
+}
+
+document.write(hari[hr]+","+tanggal+"/"+(bulan+1)+"/"+tahun+"<br>");
+</script>
+		<div id="Tentangkami">
+
+        <h1> Tentang Kami</h1>
+		<img src="Ramadhan.jpg" id="imgkanan">
+		<p text align="left"> Gemmar generasi berdiri sejak tahun 1945,gemmar mempunyai anak anak muda yang berkreativ inovativ dan mampu mempunyai ide ide yang bermanfaat,gemmar sering kali mengadakan acara seperti festival ramadhan,1 muharram.</p><p>Karena Remas atau remaja masjid merupakan sebuah organisasi tentunya memiliki sebuah struktur kepengurusan. Dengan dibentuknya struktur kepengurusan ini, maka segala aktivitas remaja masjid akan lebih terarah dan terorganisir.</p>Dalam struktur organisasi remas atau remaja masjid, setidaknya atau paling sedikit memiliki 2 buah unsur yaitu unsur pembina dan unsur pengurus.<p> Untuk unsur pembina biasanya akan langsung diisi oleh ketua DKM atau orang lain yang ditunjuk langsung oleh ketua DKM.</p>
+		
+		
+			
+		</div>
+</body>
+<div id="footer">
+		 <p>&copy; copyright 2023 - [Ferdy Ramadhan-231011701380]</p>
+	</div>	
+
+
+</body>

@@ -1,0 +1,92 @@
+
+		body{
+			background-color: orange;
+		}
+		
+		#container{
+			width: 650px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#header{
+			width: 650px;
+			height: 500px;
+			background-color: #fff;
+			background-image: url("gemar.png");
+			background-size: 100% 100%;
+			
+		}
+		 #navigasi{
+      height: 70px;
+      background-color: #fff;
+      font-size: 20px;
+      text-align: center;
+      
+    }
+    #navigasi a{
+            padding: 10px;
+    }
+		#content{
+			width: 620px;
+			height: auto;
+			background-color: #fff;
+			
+			padding: 5px 15px 5px 15px;
+		}
+		#content h2{
+			color: #7fff00;
+		}
+		#content p{
+			font-family: verdana;
+			font-size: 15px;
+			text-align: justify;
+			color: #333;
+		}
+		
+		#img{
+			width: 200px;
+			padding right: 10px;
+			padding-left: 10px;
+			padding: 10px;
+			float :right ;
+			float: left;
+		}
+		#footer{
+			width: 650px;
+			height: 70px;
+			background-color: #000000;
+	   		padding-top: 30px;
+		}
+		#footer p{
+			color: #fff;
+			text-align: center;
+
+		}
+
+		#gallery{
+			width: 620px;
+			height: auto;
+			background-color: #fff;
+			padding: 5px 15px 5px 15px;
+		}
+
+		#gallery h1{
+			color: #7fff00;
+		}
+
+		#gallery p{
+			font-family: verdana;
+			font-size: 15px;
+			text-align: justify;
+			color: white;
+		}
+		#img{
+			width: 300px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding: 10px;
+			float: left;
+			float: right;
+		}    
+
+	
